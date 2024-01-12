@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxmodel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            /* padding-top: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 100px; */
+            /* padding: 30px 40px; */
+            padding: 40px 30px 20px 10px;
+            border-radius: 50%;
+
+        }
+
+        #margin{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            /* margin: 40px 30px 20px 10px; */
+            margin-left: 300px;
+            margin-top: 290px;
+
+        }
+        #hello{
+            font-size: 15px;
+            padding-left: 15px;
+            color: bisque;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="hello">hello world</h1>
+    </div>
+    <div id="margin">
+        <h1>margin</h1>
+    </div>
+</body>
+</html>
